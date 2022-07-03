@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <video src="CCC.mp4" autoplay="" muted="" loop=""></video>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Coffee Asmr page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tempor velit, eget imperdiet diam. Aliquam malesuada leo eu mauris consectetur vestibulum. Mauris blandit magna eu mi malesuada, a maximus ex pellentesque. Donec nunc mauris, dictum quis dolor nec, placerat congue tortor. Ut in massa sit amet mauris tempus suscipit. Etiam nibh magna, dictum vitae est commodo, dignissim lobortis orci.</p>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque scelerisque rutrum ultricies. Vestibulum posuere urna sit amet tortor commodo tempus ac at justo. Maecenas nec euismod mi, ac lacinia ligula.</p> 
+            <p>Etiam tortor augue, vehicula lacinia mi ut, laoreet pharetra arcu. Pellentesque semper libero felis, et tincidunt nibh mollis sit amet. Quisque at enim consequat justo egestas accumsan molestie non ex. In id lacus a urna vulputate interdum nec molestie ligula. Nullam et odio fermentum, sagittis odio et, hendrerit dui. Pellentesque volutpat libero ac quam sodales porttitor. Praesent imperdiet, tortor eu molestie commodo, neque diam pharetra tortor, ac mattis lacus dolor quis felis.</p>
+            <p>Pellentesque molestie, orci vel iaculis malesuada, leo quam aliquam risus, quis pretium dolor ligula vel nisl. Aenean nec fringilla eros. Etiam feugiat eu lorem id viverra. Donec tempor luctus est dignissim consequat. Ut sed turpis eu turpis pellentesque aliquet. Donec id nisi vitae nisl volutpat varius sed non nunc. Etiam congue nisi vitae ultricies laoreet. Pellentesque venenatis neque et elementum ultricies. Sed tristique commodo nunc, vel efficitur sem fermentum nec. Sed mattis risus sed convallis consequat. Mauris pretium eros tellus, vitae rutrum odio pulvinar non. Etiam eget lacinia leo.</p>
+            <p>Phasellus ultricies non ipsum sed efficitur. Aliquam lorem sapien, viverra quis nibh id, faucibus iaculis felis. Etiam enim est, iaculis quis ex id, venenatis tincidunt sem. Maecenas condimentum sodales tortor, a egestas urna porta eget. Pellentesque condimentum metus in erat semper, quis sagittis elit congue. Proin sodales neque vel dui consectetur, at fringilla metus ultricies. Nunc accumsan neque in mollis dignissim. Mauris nec mauris consequat, venenatis risus quis, consectetur magna.</p>    
+            <p>Nulla tempus velit quis ante euismod molestie. Sed sit amet sollicitudin nunc. Nulla tristique, quam rutrum dignissim finibus, sapien urna blandit lorem, ut tempus diam lectus non leo. Cras nec mattis dui, eget porttitor neque. Sed varius nec ex quis sollicitudin. Praesent ultricies neque non eros congue rutrum. Aenean egestas mauris vel iaculis sagittis. Nunc fermentum iaculis sodales. Suspendisse faucibus porta ligula maximus pellentesque. Duis sed urna a urna dapibus suscipit eget ut neque. Suspendisse lorem ipsum, tincidunt quis sem vitae, vehicula venenatis augue.</p>
+        </div>
+    </section>
+    <script type="text/javascript">
+        let video = document.querySelector('video');
+        window.addEventListener('scroll',function(){
+            let  value = 1 + window.scrollY/-600;
+            video.style.opacity = value; 
+        })
+    </script>
+</body>
+</html>
